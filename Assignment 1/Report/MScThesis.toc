@@ -1,0 +1,7 @@
+\babel@toc {british}{}\relax 
+\contentsline {chapter}{Contents}{2}{chapter*.1}%
+\contentsline {chapter}{\numberline {1}Problem 1: Load data}{3}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Problem 2: FFT}{5}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Problem 3: Comparing model with measurements}{7}{chapter.3}%
+\contentsline {chapter}{\nonumberline References}{8}{chapter*.2}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
