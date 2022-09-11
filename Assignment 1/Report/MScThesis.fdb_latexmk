@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber MScThesis"] 1662920740 "MScThesis.bcf" "MScThesis.bbl" "MScThesis" 1662922429
-  "MScThesis.bcf" 1662922429 106845 d7616ed0e0d4d6ab22f99a9b1a8dd525 "lualatex"
+["biber MScThesis"] 1662923488 "MScThesis.bcf" "MScThesis.bbl" "MScThesis" 1662923708
+  "MScThesis.bcf" 1662923708 106845 d7616ed0e0d4d6ab22f99a9b1a8dd525 "lualatex"
   "thesis.bib" 1662920180 755 384a18bb8adc8505e76a568def73b69b ""
   (generated)
   "MScThesis.bbl"
   "MScThesis.blg"
-["lualatex"] 1662922424 "c:/Master/Machine-learning-and-sensor-technology/Assignment 1/Report/MScThesis.tex" "MScThesis.pdf" "MScThesis" 1662922429
+["lualatex"] 1662923702 "c:/Master/Machine-learning-and-sensor-technology/Assignment 1/Report/MScThesis.tex" "MScThesis.pdf" "MScThesis" 1662923708
   "C:/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/carlito-bold.luc" 1662904171 513965 1c9f9e6d695f8e383391a7948ebf1e76 ""
   "C:/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/carlito-bolditalic.luc" 1662904173 419221 2d8e241bc05d8ed5e4d3034f604fa66b ""
   "C:/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/carlito-italic.luc" 1662904172 428884 59d0a84835f6d014039e10bdf2c9005c ""
@@ -18,15 +18,15 @@
   "C:/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman17-regular.luc" 1662904175 128913 9c25a445dc51e3a09006af01dc23d1ed ""
   "C:/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmromanslant12-regular.luc" 1662904176 129199 b9ed9ca41b39f73f025252e7b5223d47 ""
   "C:/texlive/2022/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1662904167 285534 bf404277dc3448e58e4ce52a87b4c821 ""
-  "MScThesis.aux" 1662922429 6871 c095612efb946c896450653cb735693e "lualatex"
-  "MScThesis.bbl" 1662920743 2319 f03a2e223f1eb275e06b3609f49ec20f "biber MScThesis"
+  "MScThesis.aux" 1662923708 7530 f20b12853cbfbffca73e634b7200ec17 "lualatex"
+  "MScThesis.bbl" 1662923491 2319 f03a2e223f1eb275e06b3609f49ec20f "biber MScThesis"
   "MScThesis.out" 0 -1 0 "lualatex"
-  "MScThesis.run.xml" 1662922429 2499 edb4490648c6d7cb7342ea94a087abc1 "lualatex"
-  "MScThesis.tex" 1662922417 8925 a1544136e82c4223a425d9b482268b93 ""
-  "MScThesis.toc" 1662922429 457 e30fba9758d4f17af4ee830e981df6c0 "lualatex"
+  "MScThesis.run.xml" 1662923708 2499 edb4490648c6d7cb7342ea94a087abc1 "lualatex"
+  "MScThesis.tex" 1662923701 8995 471875aa003ee7298788c3bce6c59796 ""
+  "MScThesis.toc" 1662923708 525 3a1300304b3493840ef8b54e1d97c9e6 "lualatex"
   "USN-MSc.cls" 1662907104 3836 a93c03eb50dddd51db7442a462895839 ""
   "USN-base.cls" 1662903090 4955 297c9f8bad53af49427ac06c8b0541db ""
-  "c:/Master/Machine-learning-and-sensor-technology/Assignment 1/Report/MScThesis.tex" 1662922417 8925 a1544136e82c4223a425d9b482268b93 ""
+  "c:/Master/Machine-learning-and-sensor-technology/Assignment 1/Report/MScThesis.tex" 1662923701 8995 471875aa003ee7298788c3bce6c59796 ""
   "c:/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf" 1662291789 63012 1fdab367e024aff50d5106788d146f84 ""
   "c:/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf" 1662291789 111536 fc712364c8d0a1b548d46c76f2678030 ""
   "c:/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf" 1662291789 110496 3798ed6a50bb549a3371df87f46555f4 ""
@@ -240,6 +240,7 @@
   "fig//Plotted data.png" 1662912713 123240 a1225f99b68ce07439bee2762d5bc01d ""
   "fig//Plotted difference FFT.png" 1662916395 54043 54089d13b90fe7be73619e8410bc5663 ""
   "fig//USN_logo_en.pdf" 1662903090 5475 39cf989513d5e51cc44599eeb5b6232b ""
+  "fig/Railroad predictive maintenance.pdf" 1662923144 318490 a6b062ec8b62c66c1d3ae6256cf4e529 ""
   (generated)
   "MScThesis.aux"
   "MScThesis.bcf"

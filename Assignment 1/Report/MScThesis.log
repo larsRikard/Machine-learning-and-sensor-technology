@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.4)  11 SEP 2022 20:53
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.4)  11 SEP 2022 21:15
  restricted system commands enabled.
  file:line:error style messages enabled.
 **"c:/Master/Machine-learning-and-sensor-technology/Assignment 1/Report/MScThesis.tex"
@@ -1299,7 +1299,7 @@ LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
 
 ]
 chapter 1.
-<fig//Plotted data.png, id=37, 1204.5pt x 903.375pt>
+<fig//Plotted data.png, id=39, 1204.5pt x 903.375pt>
 File: fig//Plotted data.png Graphic file (type png)
 <use fig//Plotted data.png>
 Package luatex.def Info: fig//Plotted data.png  used on input line 128.
@@ -1309,7 +1309,7 @@ Package luatex.def Info: fig//Plotted data.png  used on input line 128.
 
 ] [4<./fig//Plotted data.png>]
 chapter 2.
-<fig//Plotted Measured and Simulated FFT.png, id=53, 1606.0pt x 1003.75pt>
+<fig//Plotted Measured and Simulated FFT.png, id=55, 1606.0pt x 1003.75pt>
 File: fig//Plotted Measured and Simulated FFT.png Graphic file (type png)
 <use fig//Plotted Measured and Simulated FFT.png>
 Package luatex.def Info: fig//Plotted Measured and Simulated FFT.png  used on input line 148.
@@ -1319,7 +1319,7 @@ Package luatex.def Info: fig//Plotted Measured and Simulated FFT.png  used on in
 
 ] [6<./fig//Plotted Measured and Simulated FFT.png>]
 chapter 3.
-<fig//Plotted difference FFT.png, id=68, 1304.875pt x 401.5pt>
+<fig//Plotted difference FFT.png, id=70, 1304.875pt x 401.5pt>
 File: fig//Plotted difference FFT.png Graphic file (type png)
 <use fig//Plotted difference FFT.png>
 Package luatex.def Info: fig//Plotted difference FFT.png  used on input line 160.
@@ -1329,14 +1329,101 @@ Package luatex.def Info: fig//Plotted difference FFT.png  used on input line 160
 
 <./fig//Plotted difference FFT.png>]
 chapter without number
-
-AED: lastpage setting LastPage
 [8
 
 
 
 
-] (./MScThesis.aux)
+]
+chapter A.
+<fig/Railroad predictive maintenance.pdf, id=91, 597.19106pt x 845.07718pt>
+File: fig/Railroad predictive maintenance.pdf Graphic file (type pdf)
+<use fig/Railroad predictive maintenance.pdf>
+Package luatex.def Info: fig/Railroad predictive maintenance.pdf  used on input line 217.
+(luatex.def)             Requested size: 597.1896pt x 845.07512pt.
+File: fig/Railroad predictive maintenance.pdf Graphic file (type pdf)
+<use fig/Railroad predictive maintenance.pdf>
+Package luatex.def Info: fig/Railroad predictive maintenance.pdf  used on input line 217.
+(luatex.def)             Requested size: 597.1896pt x 845.07512pt.
+<fig/Railroad predictive maintenance.pdf, id=94, page=1, 597.19106pt x 845.07718pt>
+File: fig/Railroad predictive maintenance.pdf Graphic file (type pdf)
+<use fig/Railroad predictive maintenance.pdf, page 1>
+Package luatex.def Info: fig/Railroad predictive maintenance.pdf , page1 used on input line 217.
+(luatex.def)             Requested size: 597.1896pt x 845.07512pt.
+File: fig/Railroad predictive maintenance.pdf Graphic file (type pdf)
+<use fig/Railroad predictive maintenance.pdf, page 1>
+Package luatex.def Info: fig/Railroad predictive maintenance.pdf , page1 used on input line 217.
+(luatex.def)             Requested size: 597.21693pt x 845.1138pt.
+[9
+
+
+]
+File: fig/Railroad predictive maintenance.pdf Graphic file (type pdf)
+<use fig/Railroad predictive maintenance.pdf, page 1>
+Package luatex.def Info: fig/Railroad predictive maintenance.pdf , page1 used on input line 217.
+(luatex.def)             Requested size: 597.21693pt x 845.1138pt.
+File: fig/Railroad predictive maintenance.pdf Graphic file (type pdf)
+<use fig/Railroad predictive maintenance.pdf, page 1>
+Package luatex.def Info: fig/Railroad predictive maintenance.pdf , page1 used on input line 217.
+(luatex.def)             Requested size: 597.21693pt x 845.1138pt.
+ [10]
+File: fig/Railroad predictive maintenance.pdf Graphic file (type pdf)
+<use fig/Railroad predictive maintenance.pdf, page 1>
+Package luatex.def Info: fig/Railroad predictive maintenance.pdf , page1 used on input line 217.
+(luatex.def)             Requested size: 597.21693pt x 845.1138pt.
+File: fig/Railroad predictive maintenance.pdf Graphic file (type pdf)
+<use fig/Railroad predictive maintenance.pdf, page 1>
+Package luatex.def Info: fig/Railroad predictive maintenance.pdf , page1 used on input line 217.
+(luatex.def)             Requested size: 597.21693pt x 845.1138pt.
+File: fig/Railroad predictive maintenance.pdf Graphic file (type pdf)
+<use fig/Railroad predictive maintenance.pdf, page 1>
+Package luatex.def Info: fig/Railroad predictive maintenance.pdf , page1 used on input line 217.
+(luatex.def)             Requested size: 597.21693pt x 845.1138pt.
+ [11<./fig/Railroad predictive maintenance.pdf>]
+<fig/Railroad predictive maintenance.pdf, id=137, page=2, 597.19106pt x 845.07718pt>
+File: fig/Railroad predictive maintenance.pdf Graphic file (type pdf)
+<use fig/Railroad predictive maintenance.pdf, page 2>
+Package luatex.def Info: fig/Railroad predictive maintenance.pdf , page2 used on input line 217.
+(luatex.def)             Requested size: 597.21693pt x 845.1138pt.
+File: fig/Railroad predictive maintenance.pdf Graphic file (type pdf)
+<use fig/Railroad predictive maintenance.pdf, page 2>
+Package luatex.def Info: fig/Railroad predictive maintenance.pdf , page2 used on input line 217.
+(luatex.def)             Requested size: 597.21693pt x 845.1138pt.
+File: fig/Railroad predictive maintenance.pdf Graphic file (type pdf)
+<use fig/Railroad predictive maintenance.pdf, page 2>
+Package luatex.def Info: fig/Railroad predictive maintenance.pdf , page2 used on input line 217.
+(luatex.def)             Requested size: 597.21693pt x 845.1138pt.
+ [12<./fig/Railroad predictive maintenance.pdf>]
+<fig/Railroad predictive maintenance.pdf, id=144, page=3, 597.19106pt x 845.07718pt>
+File: fig/Railroad predictive maintenance.pdf Graphic file (type pdf)
+<use fig/Railroad predictive maintenance.pdf, page 3>
+Package luatex.def Info: fig/Railroad predictive maintenance.pdf , page3 used on input line 217.
+(luatex.def)             Requested size: 597.21693pt x 845.1138pt.
+File: fig/Railroad predictive maintenance.pdf Graphic file (type pdf)
+<use fig/Railroad predictive maintenance.pdf, page 3>
+Package luatex.def Info: fig/Railroad predictive maintenance.pdf , page3 used on input line 217.
+(luatex.def)             Requested size: 597.21693pt x 845.1138pt.
+File: fig/Railroad predictive maintenance.pdf Graphic file (type pdf)
+<use fig/Railroad predictive maintenance.pdf, page 3>
+Package luatex.def Info: fig/Railroad predictive maintenance.pdf , page3 used on input line 217.
+(luatex.def)             Requested size: 597.21693pt x 845.1138pt.
+ [13<./fig/Railroad predictive maintenance.pdf>]
+<fig/Railroad predictive maintenance.pdf, id=151, page=4, 597.19106pt x 845.07718pt>
+File: fig/Railroad predictive maintenance.pdf Graphic file (type pdf)
+<use fig/Railroad predictive maintenance.pdf, page 4>
+Package luatex.def Info: fig/Railroad predictive maintenance.pdf , page4 used on input line 217.
+(luatex.def)             Requested size: 597.21693pt x 845.1138pt.
+File: fig/Railroad predictive maintenance.pdf Graphic file (type pdf)
+<use fig/Railroad predictive maintenance.pdf, page 4>
+Package luatex.def Info: fig/Railroad predictive maintenance.pdf , page4 used on input line 217.
+(luatex.def)             Requested size: 597.21693pt x 845.1138pt.
+File: fig/Railroad predictive maintenance.pdf Graphic file (type pdf)
+<use fig/Railroad predictive maintenance.pdf, page 4>
+Package luatex.def Info: fig/Railroad predictive maintenance.pdf , page4 used on input line 217.
+(luatex.def)             Requested size: 597.21693pt x 845.1138pt.
+ [14<./fig/Railroad predictive maintenance.pdf>] 
+AED: lastpage setting LastPage
+(./MScThesis.aux)
 Package rerunfilecheck Info: File `MScThesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'MScThesis.run.xml'.
@@ -1346,19 +1433,19 @@ Package logreq Info: Writing requests to 'MScThesis.run.xml'.
 (\end occurred when \ifx on line 8 was incomplete)
 
 Here is how much of LuaTeX's memory you used:
- 30017 strings out of 477356
+ 30155 strings out of 477356
  100000,1977958 words of node,token memory allocated
  688 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 18 attribute, 77 glue_spec, 11 attribute_list, 2 write, 2 pdf_action nodes
-   avail lists: 1:2,2:794,3:199,4:82,5:192,6:69,7:3602,8:128,9:362,10:19,11:158
- 49970 multiletter control sequences out of 65536+600000
+   avail lists: 1:2,2:848,3:199,4:90,5:192,6:74,7:3602,8:128,9:364,10:19,11:158
+ 49990 multiletter control sequences out of 65536+600000
  121 fonts using 8912267 bytes
  136i,20n,135p,10690b,2466s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf><c:/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.otf><c:/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf><c:/texlive/2022/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Bold.ttf><c:/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/texlive/2022/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Regular.ttf>
-Output written on MScThesis.pdf (8 pages, 257400 bytes).
+Output written on MScThesis.pdf (14 pages, 341412 bytes).
 
-PDF statistics: 161 PDF objects out of 1000 (max. 8388607)
- 117 compressed objects within 2 object streams
- 20 named destinations out of 1000 (max. 131072)
- 49 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 233 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 131072)
+ 57 words of extra memory for PDF output out of 10000 (max. 100000000)
 
