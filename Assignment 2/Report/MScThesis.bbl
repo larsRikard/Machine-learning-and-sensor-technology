@@ -1,0 +1,278 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{ChaiChat90:online}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://chai.ml/}}
+      \field{note}{(Accessed on 09/14/2022)}
+      \field{title}{Chai - Chat with AI}
+      \true{nocite}
+    \endentry
+    \entry{murphy2000introduction}{book}{}
+      \name{author}{3}{}{%
+        {{hash=991db6480b3e758c27c309fc49846fc9}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=602f698a574056f9be09093c13025474}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={R.R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6f7fef311b8ddc0289e8f5f3cff0d58b}{%
+           family={Arkin},
+           familyi={A\bibinitperiod},
+           given={R.C.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{bd53dd084da1cab6db994512cc411d1e}
+      \strng{fullhash}{bd53dd084da1cab6db994512cc411d1e}
+      \strng{bibnamehash}{bd53dd084da1cab6db994512cc411d1e}
+      \strng{authorbibnamehash}{bd53dd084da1cab6db994512cc411d1e}
+      \strng{authornamehash}{bd53dd084da1cab6db994512cc411d1e}
+      \strng{authorfullhash}{bd53dd084da1cab6db994512cc411d1e}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780262133838}
+      \field{series}{A Bradford book}
+      \field{title}{Introduction to AI Robotics}
+      \field{year}{2000}
+      \true{nocite}
+      \field{pages}{4}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://books.google.ne/books?id=RVlnL\_X6FrwC
+      \endverb
+      \verb{url}
+      \verb https://books.google.ne/books?id=RVlnL%5C_X6FrwC
+      \endverb
+    \endentry
+    \entry{Sifakis}{unknown}{}
+      \name{author}{1}{}{%
+        {{hash=6849b9e58bf44419e498a20e7688a262}{%
+           family={Sifakis},
+           familyi={S\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6849b9e58bf44419e498a20e7688a262}
+      \strng{fullhash}{6849b9e58bf44419e498a20e7688a262}
+      \strng{bibnamehash}{6849b9e58bf44419e498a20e7688a262}
+      \strng{authorbibnamehash}{6849b9e58bf44419e498a20e7688a262}
+      \strng{authornamehash}{6849b9e58bf44419e498a20e7688a262}
+      \strng{authorfullhash}{6849b9e58bf44419e498a20e7688a262}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{Autonomous Systems -- An Architectural Characterization}
+      \field{year}{2018}
+      \true{nocite}
+    \endentry
+    \entry{CERNETIC2002167}{article}{}
+      \name{author}{3}{}{%
+        {{hash=86fc29cc82be56305adedfe3cc140491}{%
+           family={Černetič},
+           familyi={Č\bibinitperiod},
+           given={Janko},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ddc7db3a354b89d4759c3e114ec24149}{%
+           family={Strmčnik},
+           familyi={S\bibinitperiod},
+           given={Stanko},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4a6cd15996f6ba1c7a7660e8dc4a36db}{%
+           family={Brandt},
+           familyi={B\bibinitperiod},
+           given={Dietrich},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0e2889293c58dc8898bf6cb5819af12e}
+      \strng{fullhash}{0e2889293c58dc8898bf6cb5819af12e}
+      \strng{bibnamehash}{0e2889293c58dc8898bf6cb5819af12e}
+      \strng{authorbibnamehash}{0e2889293c58dc8898bf6cb5819af12e}
+      \strng{authornamehash}{0e2889293c58dc8898bf6cb5819af12e}
+      \strng{authorfullhash}{0e2889293c58dc8898bf6cb5819af12e}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract. Discussions on Social Impact of Automation are active in IFAC for more than three decades. The paper presents the main issues from past research and development in the area, indicates most likely trends and puts forward some basic premises for further development. The authors argue that it is necessary now to revisit the social impact of automation, in order to become ready for new challenges. They propose essentially two things: first, to look at the social impact of automation from a wider perspective, and second, to increase the intensity of working on these issues in the future.}
+      \field{issn}{1474-6670}
+      \field{journaltitle}{IFAC Proceedings Volumes}
+      \field{note}{15th IFAC World Congress}
+      \field{number}{1}
+      \field{title}{REVISITING THE SOCIAL IMPACT OF AUTOMATION}
+      \field{volume}{35}
+      \field{year}{2002}
+      \true{nocite}
+      \field{pages}{167\bibrangedash 178}
+      \range{pages}{12}
+      \verb{doi}
+      \verb https://doi.org/10.3182/20020721-6-ES-1901.01648
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1474667015400692
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1474667015400692
+      \endverb
+      \keyw{Social impact of automation,Human factors,Socio-technical systems}
+    \endentry
+    \entry{Lavestea6:online}{misc}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://e24.no/norsk-oekonomi/i/KzxVJ6/laveste-arbeidsledighet-paa-14-aar}}
+      \field{note}{(Accessed on 09/15/2022)}
+      \field{title}{Laveste arbeidsledighet på 14 år – E24}
+      \true{nocite}
+    \endentry
+    \entry{Theunemp77:online}{misc}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.npr.org/2022/08/05/1116036160/the-unemployment-rate-fell-to-3-5-matching-its-lowest-level-in-the-last-50-years}}
+      \field{note}{(Accessed on 09/15/2022)}
+      \field{title}{The unemployment rate fell to 3.5\%, matching its lowest level in the last 50 years : NPR}
+      \true{nocite}
+    \endentry
+    \entry{Toavtrej43:online}{misc}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.nrk.no/innlandet/to-av-tre-jordbaerdyrkere-pa-nes-i-ringsaker-gir-seg-1.15607791}}
+      \field{note}{(Accessed on 09/15/2022)}
+      \field{title}{To av tre jordbærdyrkere på Nes i Ringsaker gir seg – NRK Innlandet – Lokale nyheter, TV og radio}
+      \true{nocite}
+    \endentry
+    \entry{7924235}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9e350fad1f0d6f2982fd8e768f22035b}{%
+           family={Bryson},
+           familyi={B\bibinitperiod},
+           given={Joanna},
+           giveni={J\bibinitperiod}}}%
+        {{hash=706e1ba94679aabc2f6d912eea8c7f26}{%
+           family={Winfield},
+           familyi={W\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d03476e88a3f242d93c60c1405f54ca}
+      \strng{fullhash}{5d03476e88a3f242d93c60c1405f54ca}
+      \strng{bibnamehash}{5d03476e88a3f242d93c60c1405f54ca}
+      \strng{authorbibnamehash}{5d03476e88a3f242d93c60c1405f54ca}
+      \strng{authornamehash}{5d03476e88a3f242d93c60c1405f54ca}
+      \strng{authorfullhash}{5d03476e88a3f242d93c60c1405f54ca}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer}
+      \field{number}{5}
+      \field{title}{Standardizing Ethical Design for Artificial Intelligence and Autonomous Systems}
+      \field{volume}{50}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{116\bibrangedash 119}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/MC.2017.154
+      \endverb
+    \endentry
+    \entry{Gruhn2011HumanMI}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=ac258d22f6e8925f09c75779d6b6873f}{%
+           family={Gruhn},
+           familyi={G\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac258d22f6e8925f09c75779d6b6873f}
+      \strng{fullhash}{ac258d22f6e8925f09c75779d6b6873f}
+      \strng{bibnamehash}{ac258d22f6e8925f09c75779d6b6873f}
+      \strng{authorbibnamehash}{ac258d22f6e8925f09c75779d6b6873f}
+      \strng{authornamehash}{ac258d22f6e8925f09c75779d6b6873f}
+      \strng{authorfullhash}{ac258d22f6e8925f09c75779d6b6873f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Human Machine Interface (HMI) Design: The Good, The Bad, and The Ugly (and what makes them so)}
+      \field{year}{2011}
+      \true{nocite}
+    \endentry
+    \entry{NozzleWi94:online}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://en.wikipedia.org/wiki/Nozzle}}
+      \field{note}{(Accessed on 09/19/2022)}
+      \field{title}{Nozzle - Wikipedia}
+      \true{nocite}
+    \endentry
+    \entry{article}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a5d70512976a0054642f4c61168b1a82}{%
+           family={Endsley},
+           familyi={E\bibinitperiod},
+           given={Mica},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f2a5657c929335736c48b7a6d66b70a8}{%
+           family={Kiris},
+           familyi={K\bibinitperiod},
+           given={Esin},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{88514c3b3b3bb251638b459e5a15e3a1}
+      \strng{fullhash}{88514c3b3b3bb251638b459e5a15e3a1}
+      \strng{bibnamehash}{88514c3b3b3bb251638b459e5a15e3a1}
+      \strng{authorbibnamehash}{88514c3b3b3bb251638b459e5a15e3a1}
+      \strng{authornamehash}{88514c3b3b3bb251638b459e5a15e3a1}
+      \strng{authorfullhash}{88514c3b3b3bb251638b459e5a15e3a1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Human Factors: The Journal of the Human Factors and Ergonomics Society}
+      \field{month}{06}
+      \field{title}{The Out-of-the-Loop Performance Problem and Level of Control in Automation}
+      \field{volume}{37}
+      \field{year}{1995}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1518/001872095779064555
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

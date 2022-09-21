@@ -127,38 +127,71 @@ As the dataset can be considered labeled, i.e. the columns in the dataset are la
 
 \section{What does each column in the dataset represent?}
 \label{sec:datasetColumns}
+The dataset contains multiple columns, see figure \ref{tab:columnDescr} for brief descriptions of each column.
 
 \begin{table}[!ht]
   \caption{Column descriptions}
   \centering
   \begin{tabular}{ | m{3cm} | m{10cm} |}
     \hline
-    Engine & Identification number,                                        \\ \hline
-    Cycle  & percentage of rotation or counted units since initialization. \\ \hline
+    Engine       & Identification number.                           \\ \hline
+    Cycle        & Counted rotations since initialization.          \\ \hline
+    Settings 1-3 & How the systems configurations change over time. \\ \hline
+    Sensor 1-21  & Various sensor measurements.                     \\ \hline
+    RUL          & Remaining useful life.                           \\ \hline
   \end{tabular}
   \label{tab:columnDescr}
 \end{table}
 
+\section{Features and targets}
+\label{sec:featuresTargets}
+Attributes are data types in the dataset that reflect the name of configured or measured values such as voltage set on a motor or pressure. Features are attributes bundled with a value. Targets are usually the information that is intended to predict. In this case features are all configuration and sensory data and the target is the RUL.
 
-wtfff
+\section{Not features or targets}
+\label{sec:notFeaturesTargets}
 
-\begin{figure}[!ht]
-  \centering
-  \includegraphics[width=1\textwidth]{Plotted data}
-  \caption{
-    A plot of the data given in the assignment.
-    The first plot shows both the measured and the simulated acceleration data.
-    And the second shows the difference between the two.}
-  \label{fig:raw_data_plot}
-\end{figure}
+Identification columns aren't features if they are all the same brand and make of fan.
+Time might be a feature.
 
 \chapter{Data Visualization}
 \label{ch:visualization}
-\lipsum[1]
+This chapter contains visualizations of the dataset that can be used to get better understanding of the system.
+
+\section{Histogram}
+\label{sec:histogram}
+All the available data was plotted, see figure \ref{fig:rawHistogram}.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.8\textwidth]{AttributeHistogram}
+  \caption{Histogram plot of all attributes.}
+  \label{fig:rawHistogram}
+\end{figure}
 
 \chapter{Preprocessing and feature selection}
 \label{ch:preprocessing}
-\lipsum[1]
+This chapter discusses the dataset plotted in the previous chapter.*
+
+\section{Feature removal}
+\label{sec:featureRemoval}
+
+Low correlation with feature:
+The engine (id) attribute is again not a feature or a target, and we can see that most engines have similar amounts of data points, engine attribute can safely be removed.
+
+Highly correlated:
+Cycle and RUL are almost identical in terms of value frequency, which isn't strange since these are opposites, we should only use one of them. 
+
+High difference between feature values:
+Setting 2 and sensor 17 display gaps between recorded data. This may or may not be an issue.
+
+Constant value:
+
+Setting 3 and sensors 1, 5, 6, 10, 16, 18, 19, all have constant or close to constant values throughout the whole dataset. These should be removed.
+
+Remaining attributes:
+Cycle or RUL, setting 1, 2, sensor 2, 3, 4, 7, 8, 9, 11, 12, 13, 14, 15, 17, 20, 21.
+
+
 
 \chapter{Regression models}
 \label{ch:regression}
