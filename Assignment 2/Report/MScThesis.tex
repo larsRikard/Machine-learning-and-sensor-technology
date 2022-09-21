@@ -1,0 +1,229 @@
+%% sample template file for a MSc Thesis
+%% The default is with two sided setup:
+\documentclass[%
+oneside,    %% uncomment for onesided layout
+project,    %% uncomment not thesis but project report
+nosummary   %% uncomment if no summary page should be generated
+]{USN-MSc}
+
+% The following command removes the chapter names form the header
+% (comment/remove) if you prefer to have them:
+\pagestyle{plain}
+
+% --- Bibliography setup ---
+%%% default is the "ieee" style
+\usepackage[style=ieee, sorting=none]{biblatex}
+%%% If you want to use "author-year" style
+%%% where `\cite{Foo2011}` generates "Foo et al. (2011)"
+%%% and   `\parencite{Foo2011}` generates "(Foo et al. 2011)"
+%%% then comment the line above and use
+%\usepackage[style=authoryear]{biblatex}
+%%% or
+%%% if you want to use "alphabetic" style then use
+%%% where `cite[Foo2011]` generates "[Foo11]"
+%%% then comment the line above and use
+%\usepackage[style=alphabetic]{biblatex}
+%%% instead.
+%% load the bib file:
+\addbibresource{MscThesis.bib}
+
+\usepackage{lipsum} % just for providing fill text used in this template
+\usepackage{array} % for adjusting tables?
+
+% --- general setup ---
+%% Please fill in the following parameters:
+\newcommand{\mytitle}{%
+%% title:
+Assignment 2 - Data Visualization and Regression Models
+}
+
+\newcommand{\mysubtitle}{%
+%% master programme (for thesis only)
+%% uncomment the appropriate one:
+%Electrical Power Engineering
+%Energy and Environmental Technology
+Industrial IT and Automation
+%Process Technology
+}
+
+\newcommand{\mykeywords}{%
+%% keywords (for thesis only):
+<keyword one, keyword two, \ldots>
+}
+
+\newcommand{\myauthor}{%
+%% author(thesis) or group code (project):
+Lars Rikard Rådstoga
+}
+
+\newcommand{\myparticipants}{
+%% group participants (for project only)
+Lars Rikard Rådstoga
+}
+
+\newcommand{\supervisor}{%
+%% supervisor:
+<Supervisor's Name>}
+
+\begin{document}
+
+% --- title page setup ---
+\USNtitlepage%
+%% Please provide the following information:
+%% #1 optional figure (set to {} if not wanted)
+{%
+  {\normalsize <optional figure>}
+  \includegraphics[draft,width=\textwidth]{USN_logo_en}}
+%% #2 Project partner:
+{<Project partner>}
+%% #3 Summary:
+{%
+  \lipsum[6-7]
+}
+
+%\chapter*{Preface}
+%\label{ch:preface}
+%\addcontentsline{toc}{chapter}{Preface}
+%\lipsum[1-3]
+%\bigskip
+%Porsgrunn, \today
+%\myauthor %% for thesis
+%\myparticipants %% for project
+
+
+%% table of contents
+\tableofcontents
+\addcontentsline{toc}{chapter}{\contentsname}
+
+%\listoffigures % out-comment if unwanted
+%\addcontentsline{toc}{section}{\listfigurename}
+
+%\listoftables  % out-comment if unwanted
+%\addcontentsline{toc}{section}{\listtablename}
+
+%\chapter*{Nomenclature}
+%\label{sec:nomenclature}
+%bla
+
+%\begin{longtable}{ll}
+%  \textbf{Symbol} & \textbf{Explanation}\endhead\\
+%  A/D	& Analogue-Digital-Converter \\
+%  CMR	& Common Mode Rejection \\
+%  foo	& Foo \\
+%  bar 	& Bar
+%\end{longtable}
+
+\chapter{Understanding the problem}
+\label{ch:understanding}
+The following chapter discusses and answers a few questions regarding the problem and the dataset, to better understand the following chapters.
+
+\section{What type of problem is it?}
+\label{sec:typeOfProblem}
+The problem at hand is in fact a regression task. The dataset available contains monitored sensory data, with noise, and can be considered labeled. The goal is to develop a model that can predict/extrapolate the RUL (Remaining Useful Life) of turbofan jet engines.
+
+\section{What category of machine learning is required?}
+\label{sec:mlCategory}
+As the dataset can be considered labeled, i.e. the columns in the dataset are labeled and have some physical meaning, the supervised learning category will be used.
+
+\section{What does each column in the dataset represent?}
+\label{sec:datasetColumns}
+
+\begin{table}[!ht]
+  \caption{Column descriptions}
+  \centering
+  \begin{tabular}{ | m{3cm} | m{10cm} |}
+    \hline
+    Engine & Identification number,                                        \\ \hline
+    Cycle  & percentage of rotation or counted units since initialization. \\ \hline
+  \end{tabular}
+  \label{tab:columnDescr}
+\end{table}
+
+
+wtfff
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=1\textwidth]{Plotted data}
+  \caption{
+    A plot of the data given in the assignment.
+    The first plot shows both the measured and the simulated acceleration data.
+    And the second shows the difference between the two.}
+  \label{fig:raw_data_plot}
+\end{figure}
+
+\chapter{Data Visualization}
+\label{ch:visualization}
+\lipsum[1]
+
+\chapter{Preprocessing and feature selection}
+\label{ch:preprocessing}
+\lipsum[1]
+
+\chapter{Regression models}
+\label{ch:regression}
+\lipsum[1]
+
+\chapter{Regression models with extended features}
+\label{ch:regressionExtended}
+\lipsum[1]
+
+
+% A dummy command that causes all bibliographyentries to be displayed
+% even though there were not cited in the document. Used for demonstration
+% purposes only in this template file.
+~\nocite{*}
+
+\cleardoublepage
+
+% The bibliography should be displayed here...
+%\printbibliography[heading=bibintoc]
+% You rather like to call the bibliography "References"? Then use this instead:
+\printbibliography[heading=bibintoc, title={References}]
+
+
+\appendix
+%%\renewcommand{\appendixname}{Paper} %% So we get 'Paper X' displayed instead
+%
+%
+%\chapter[Short Title of Paper A]{Title of Paper A (probably very long and therefore not good to have in the header)}
+%\label{paper-a}
+%
+%\paragraph{Note}
+%Since some papers tend to have a rather long title it is good to provide the optional short title which then will be displayed in the table of contents and header instead of the long original title.
+%On the openening page of the chapter the orginal \emph{long} title will be displayed.\bigskip
+%
+%\emph{Short descriptive text of paper follows here.}\bigskip
+%
+%The paper itself needs to be included in the published form as PDF on the next pages.
+%This can be done using the \texttt{pdfpages} package by adding the command:
+%
+%\begin{verbatim}
+%\includepdf{pages=-,openright}{Filename}
+%\end{verbatim}
+%
+%You can omit the \texttt{.pdf} when specifying the \texttt{Filename}. Also you should include always include the option \texttt{openright} since it would look strange to have the paper starting at the back of the cover page.
+%
+%There are more options like only adding specific pages:
+%\begin{verbatim}
+%\includepdf{pages=2-6,openright}{Filename.pdf}
+%\end{verbatim}
+%
+%For more options see Appendix~\ref{paper-b} where the most important pages of the \texttt{pdfpages} manual were inlcuded using \texttt{pdfpages}.
+%
+%
+%%%% Command to include a PDF file directly including all pages:
+%
+%
+\chapter[Source code]{Source code}
+\label{paper-a}
+%Short descriptive text of paper follows here.
+The source code, Jupyter notebook, used to load, transform and plot data.
+%Here we included the first five pages of the \texttt{pdfpages} manual itself.
+%\includepdf[pages=1-4,openright]{fig/Railroad predictive maintenance}
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
