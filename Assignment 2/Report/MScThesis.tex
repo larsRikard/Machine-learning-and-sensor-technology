@@ -145,7 +145,7 @@ The dataset contains multiple columns, see figure \ref{tab:columnDescr} for brie
 
 \section{Features and targets}
 \label{sec:featuresTargets}
-Attributes are data types in the dataset that reflect the name of configured or measured values such as voltage set on a motor or pressure. Features are attributes bundled with a value. Targets are usually the information that is intended to predict. In this case features are all configuration and sensory data and the target is the RUL.
+Attributes are data types in the dataset that reflect the name of configured or measured values such as voltage set on a motor or pressure. Features are attributes bundled with a value. Targets are usually the information that is intended to predict. In this case features are all configuration, sensory data, and cycle (time). The target is the RUL. The fact that configurations and settings aren't specifically named makes it hard to tell which are important or not.
 
 \section{Not features or targets}
 \label{sec:notFeaturesTargets}
@@ -159,43 +159,46 @@ This chapter contains visualizations of the dataset that can be used to get bett
 
 \section{Histogram}
 \label{sec:histogram}
-All the available data was plotted, see figure \ref{fig:rawHistogram}.
+All the available data was plotted as histograms, see figure \ref{fig:rawHistogram}. Additionally, correlations were investigated using the Pandas Dataframe correlation function.
 
 \begin{figure}[!ht]
   \centering
-  \includegraphics[width=0.8\textwidth]{AttributeHistogram}
+  \includegraphics[width=1\textwidth, height=0.9\textheight]{AttributeHistogram}
   \caption{Histogram plot of all attributes.}
   \label{fig:rawHistogram}
 \end{figure}
 
 \chapter{Preprocessing and feature selection}
 \label{ch:preprocessing}
-This chapter discusses the dataset plotted in the previous chapter.*
+This chapter discusses the dataset plotted in the previous chapter and which parts of the dataset that should be selected and weather it should be modified.
 
 \section{Feature removal}
 \label{sec:featureRemoval}
 
-Low correlation with feature:
-The engine (id) attribute is again not a feature or a target, and we can see that most engines have similar amounts of data points, engine attribute can safely be removed.
+Initially, some ideas of what features to drop were made through observation of the histogram and the correlation matrix. Following decisions were made:
 
-Highly correlated:
-Cycle and RUL are almost identical in terms of value frequency, which isn't strange since these are opposites, we should only use one of them. 
+The engine (ID) attribute is again not a feature or a target, and we can see that most engines have similar amounts of data points, engine attribute could safely be removed.
+RUL was removed because it is the target.
+Setting 3 and sensors 1, 5, 6, 10, 16, 18, 19 were removed because they all have constant values.
+Sensor 7, 11, 12, 15, 17, 20, and 21 were removed because they were too highly correlated to other features, perhaps these are redundant sensors.
 
-High difference between feature values:
-Setting 2 and sensor 17 display gaps between recorded data. This may or may not be an issue.
+Additionally, after running the scikit-learn recursive feature elimination with cross-validation function (RFECV), using a ridge regression estimator, sensor 14 was also deemed unimportant. The reason for using ridge for the estimator here, is to try to avoid bias from using the same regression method as used in later models.
 
-Constant value:
-
-Setting 3 and sensors 1, 5, 6, 10, 16, 18, 19, all have constant or close to constant values throughout the whole dataset. These should be removed.
-
-Remaining attributes:
-Cycle or RUL, setting 1, 2, sensor 2, 3, 4, 7, 8, 9, 11, 12, 13, 14, 15, 17, 20, 21.
-
-
+The remaining attributes were then:
+Cycle, setting 1 and 2, sensor 2, 3, 4, 8, 9 and 13.
 
 \chapter{Regression models}
 \label{ch:regression}
-\lipsum[1]
+Three different models were created: linear, 2nd degree polynomial, and random forest.
+
+\section{Linear model}
+\label{sec:linMod}
+
+\section{2nd degree polynomial model}
+\label{sec:polMod}
+
+\section{Random forest model}
+\label{sec:rfMod}
 
 \chapter{Regression models with extended features}
 \label{ch:regressionExtended}
@@ -249,7 +252,7 @@ Cycle or RUL, setting 1, 2, sensor 2, 3, 4, 7, 8, 9, 11, 12, 13, 14, 15, 17, 20,
 %
 %
 \chapter[Source code]{Source code}
-\label{paper-a}
+\label{app:sourceCode}
 %Short descriptive text of paper follows here.
 The source code, Jupyter notebook, used to load, transform and plot data.
 %Here we included the first five pages of the \texttt{pdfpages} manual itself.
